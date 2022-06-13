@@ -1,0 +1,133 @@
+
+div div img {
+    height: 800;
+    width: 55%;
+
+}
+
+a{ color: white; 
+text-decoration: none;
+}
+
+.enc {
+    height: 100px;
+    width: 100%;
+    background-color: #F7925E;
+    margin-bottom: 20px;
+}
+
+
+.mainmenubtn {
+    background-color: #F7925E;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+     transition: .3s;
+}
+.mainmenubtn:hover {
+    background-color: #FFD5A8;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: #F7925E;
+    min-width: 200px;
+}
+
+.dropdown-child a:hover {
+   background-color: #FFD5A8;
+}
+
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+.titulo1 {
+    height: 115px;
+    border: 3px solid #FFD5A8;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}   
+
+.wrap {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  margin: 7px;
+}
+
+.wrap1 {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  margin: 7px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 5px;
+  max-height: 600px;
+  background-color: #FFD5A8;
+}
+
+.grid-container > div, .grid-container1 > div {
+  padding: 20px;
+  font-size: 30px;
+  display: flex;
+  grid-template-columns: 100px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: #F7925E;
+    align-items: center;
+    display: flex;
+    justify-content: center;    
+}
+
+.grid-container1 {
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    border: 3px solid #FFD5A8;
+    text-align: justify;
+}
+
+.in-button {
+    background-color: #F7925E;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+}
+
+.in-button:hover {
+    background-color: #FFD5A8;
+    transition: .3s ease all;
+}
+
+.redes-text {
+
+}
+
+.redes-desc {
+    margin: 57px;
+}
